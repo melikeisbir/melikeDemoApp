@@ -1,11 +1,27 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+//import fibonaccidongu.fibonacci;
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
+    public static void main(String [  ]  args) {
+       //fibonacci fibonacci = new fibonacci();
+        // Fibonacci : 1  1 ile başlıyor 1 1 2 3 5 8 13 21.....
+        // a b c
+        //     a b c
+        //         a b c
+
+        int a = 1;
+        int b = 1;
+        int c;
+        System.out.println(a);
+        System.out.println(b);
+
+        for( int  i  = 0;   i<100  ;  i++)
+
+        {
+            c = a + b;   //kaydırıyoruz çünkü bir sonrakiyle toplayacağız
+            a = b;
+            b = c;
+            System.out.println(c);
+
         }
     }
 }
