@@ -15,7 +15,6 @@ public class Main {
         System.out.println(b);
 
         for( int  i  = 0;   i<100  ;  i++)
-
         {
             c = a + b;   //kaydırıyoruz çünkü bir sonrakiyle toplayacağız
             a = b;
