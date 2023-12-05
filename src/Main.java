@@ -1,4 +1,5 @@
 //import fibonaccidongu.fibonacci;
+import harfnotu.HarfNotuSistemi;
 import sayiortalamasi.SayiOrtalamasi;
 
 import java.util.Scanner;
@@ -49,7 +50,7 @@ public class Main {
         // 3 sayının ortalaması
 
 
-        SayiOrtalamasi sayiOrtalamasi = new SayiOrtalamasi();
+       /* SayiOrtalamasi sayiOrtalamasi = new SayiOrtalamasi();
         sayiOrtalamasi.sayiOrtalamasiHesapla();
 
 
@@ -71,30 +72,44 @@ public class Main {
         }
         //Eğer sadece if ve else kullanılsaydı, her iki durum da kontrol edilecek ve her iki durumun da sağlanması durumunda
         // her ikisi de çalıştırılacaktı. Ancak, else if kullanılarak, sadece bir durumun çalıştırılmasını sağlamak mümkün olur.
+
+
+
+
         System.out.println("alper");
         System.out.println("alper");
         System.out.println("alper");
         System.out.println("alper");
-        System.out.println("alper");
+        System.out.println("alper");*/
 
 
 //1 den 100e kadar toplam
 
-        int toplam = 0;
+       /* int toplam = 0;
         for (int i = 1; i <= 100; i++) {
             toplam += i;
         }
-        System.out.println("sayıların toplamı=" + toplam);
+        System.out.println("sayıların toplamı=" + toplam);*/
 
 
 //faktoriyel hesaplama
 
-        int faktoriyel = 1;
+        /*int faktoriyel = 1;
         System.out.println("sayi giriniz: ");
         int sayi = scan.nextInt();
         for (int i = 1; i <= sayi; i++) {
             faktoriyel = faktoriyel * i;
         }
-        System.out.println(sayi + "!=" + faktoriyel);
+        System.out.println(sayi + "!=" + faktoriyel);*/
+
+
+
+        Scanner scan = new Scanner(System.in);
+        HarfNotuSistemi harfNotu = new HarfNotuSistemi();
+        harfNotu.HarfNotuHesapla();
+
+        HarfNotuSistemi dersNotu = new HarfNotuSistemi();
+        dersNotu.HarfNotuHesaplama();
+
     }
 }
