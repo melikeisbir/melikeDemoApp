@@ -29,9 +29,11 @@ public class HarfNotuSistemi {
             System.out.println("Harf Notu: AA");
         }
     }
+
+
     public void HarfNotuHesaplama(){
         Scanner scan= new Scanner(System.in);
-        int sayi;
+        int sayi=0;
         System.out.println("Ders notunu giriniz:");
         sayi = scan.nextInt();
 
@@ -40,7 +42,7 @@ public class HarfNotuSistemi {
 
         switch(sayi){
             case 1:
-                System.out.println("FF" + (50));
+                System.out.println("FF" + (sayi < 50));
                 break;
             case 2:
                 System.out.println("CC" + (59));

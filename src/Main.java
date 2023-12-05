@@ -1,4 +1,5 @@
 //import fibonaccidongu.fibonacci;
+import carpimtablosu.CarpimTablosu;
 import harfnotu.HarfNotuSistemi;
 import sayiortalamasi.SayiOrtalamasi;
 
@@ -104,12 +105,15 @@ public class Main {
 
 
 
-        Scanner scan = new Scanner(System.in);
+        /*Scanner scan = new Scanner(System.in); //if-else
         HarfNotuSistemi harfNotu = new HarfNotuSistemi();
         harfNotu.HarfNotuHesapla();
 
-        HarfNotuSistemi dersNotu = new HarfNotuSistemi();
-        dersNotu.HarfNotuHesaplama();
+        HarfNotuSistemi dersNotu = new HarfNotuSistemi(); //switch-case
+        dersNotu.HarfNotuHesaplama();*/
+
+        CarpimTablosu carpimTablo = new CarpimTablosu(); //carpim tablosu
+        carpimTablo.CarpimTablosuOlustur();
 
     }
 }
