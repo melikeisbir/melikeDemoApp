@@ -33,9 +33,8 @@ public class HarfNotuSistemi {
 
     public void HarfNotuHesaplama(){
         Scanner scan= new Scanner(System.in);
-        int sayi=0;
         System.out.println("Ders notunu giriniz:");
-        sayi = scan.nextInt();
+        int sayi = scan.nextInt();
 
 
 

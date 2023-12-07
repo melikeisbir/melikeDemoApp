@@ -1,5 +1,6 @@
 //import fibonaccidongu.fibonacci;
 import carpimtablosu.CarpimTablosu;
+import fonksiyonlar.Fonksiyonlar;
 import harfnotu.HarfNotuSistemi;
 import sayiortalamasi.SayiOrtalamasi;
 
@@ -105,15 +106,17 @@ public class Main {
 
 
 
-        /*Scanner scan = new Scanner(System.in); //if-else
-        HarfNotuSistemi harfNotu = new HarfNotuSistemi();
+        Scanner scan = new Scanner(System.in); //if-else
+       /* HarfNotuSistemi harfNotu = new HarfNotuSistemi();
         harfNotu.HarfNotuHesapla();
 
         HarfNotuSistemi dersNotu = new HarfNotuSistemi(); //switch-case
-        dersNotu.HarfNotuHesaplama();*/
+        dersNotu.HarfNotuHesaplama();
 
         CarpimTablosu carpimTablo = new CarpimTablosu(); //carpim tablosu
-        carpimTablo.CarpimTablosuOlustur();
+        carpimTablo.CarpimTablosuOlustur(); */
 
+        Fonksiyonlar fonksiyon = new Fonksiyonlar();
+        fonksiyon.FonksiyonHesapla();
     }
 }
