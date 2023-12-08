@@ -118,5 +118,7 @@ public class Main {
 
         Fonksiyonlar fonksiyon = new Fonksiyonlar();
         fonksiyon.FonksiyonHesapla();
+
+
     }
 }
