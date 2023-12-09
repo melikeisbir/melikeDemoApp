@@ -108,16 +108,16 @@ public class Main {
 
         Scanner scan = new Scanner(System.in); //if-else
        /* HarfNotuSistemi harfNotu = new HarfNotuSistemi();
-        harfNotu.HarfNotuHesapla();
+        harfNotu.HarfNotuHesapla();*/
 
         HarfNotuSistemi dersNotu = new HarfNotuSistemi(); //switch-case
         dersNotu.HarfNotuHesaplama();
 
-        CarpimTablosu carpimTablo = new CarpimTablosu(); //carpim tablosu
-        carpimTablo.CarpimTablosuOlustur(); */
+        /*CarpimTablosu carpimTablo = new CarpimTablosu(); //carpim tablosu
+        carpimTablo.CarpimTablosuOlustur();
 
         Fonksiyonlar fonksiyon = new Fonksiyonlar();
-        fonksiyon.FonksiyonHesapla();
+        fonksiyon.FonksiyonHesapla();*/
 
 
     }

@@ -38,26 +38,27 @@ public class HarfNotuSistemi {
 
 
 
-
-        switch(sayi){
-            case 1:
-                System.out.println("FF" + (sayi < 50));
+        switch(sayi/10){
+            case 10:
+                System.out.println("AA" );
                 break;
-            case 2:
-                System.out.println("CC" + (59));
+            case 9:
+                System.out.println("AA");
                 break;
-            case 3:
-                System.out.println("CB" + (69));
+            case 8:
+                System.out.println("AB");
                 break;
-            case 4:
-                System.out.println("BB" + (79));
-                break;
-            case 5:
-                System.out.println("AB" + (90));
+            case 7:
+                System.out.println("BB");
                 break;
             case 6:
-                System.out.println("AA" + (100));
+                System.out.println("BC");
+                break;
+            case 5:
+                System.out.println("CC");
                         break;
+            default:
+                System.out.println("FF");
         }
     }
 }
