@@ -4,43 +4,37 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class HarfNotuSistemi {
-    public void HarfNotuHesapla(){
+    public void HarfNotuHesapla() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Ders notunu giriniz: ");
         int dersnotu = scan.nextInt();
 
 
-        if (dersnotu <50) {
+        if (dersnotu < 50) {
             System.out.println("Harf Notu: FF");
-        }
-        else if (dersnotu <=59 ) {
+        } else if (dersnotu <= 59) {
             System.out.println("Harf Notu: CC");
-        }
-        else if(dersnotu <=69){
+        } else if (dersnotu <= 69) {
             System.out.println("Harf Notu: CB");
-        }
-        else if(dersnotu <=79){
+        } else if (dersnotu <= 79) {
             System.out.println("Harf Notu: BB");
-        }
-        else if(dersnotu <=90){
+        } else if (dersnotu <= 90) {
             System.out.println("Harf Notu: AB");
-        }
-        else if(dersnotu <=100) {
+        } else if (dersnotu <= 100) {
             System.out.println("Harf Notu: AA");
         }
     }
 
 
-    public void HarfNotuHesaplama(){
-        Scanner scan= new Scanner(System.in);
+    public void HarfNotuHesaplama() {
+        Scanner scan = new Scanner(System.in);
         System.out.println("Ders notunu giriniz:");
         int sayi = scan.nextInt();
 
 
-
-        switch(sayi/10){
+        switch (sayi / 10) {
             case 10:
-                System.out.println("AA" );
+                System.out.println("AA");
                 break;
             case 9:
                 System.out.println("AA");
@@ -56,7 +50,7 @@ public class HarfNotuSistemi {
                 break;
             case 5:
                 System.out.println("CC");
-                        break;
+                break;
             default:
                 System.out.println("FF");
         }
